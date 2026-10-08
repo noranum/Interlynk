@@ -156,7 +156,7 @@ Requirements
 Clone the Repository
 
 ```bash
-git clone https://github.com/noranum/interlynk-escrow-dapp.git
+git clone [https://github.com/noranum/Interlynk.git]
 ```
 
 ```bash
