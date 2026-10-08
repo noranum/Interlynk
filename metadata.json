@@ -1,0 +1,8 @@
+{
+  "name": "Interlynk - Smart Escrow Payments with MetaMask(Draft)",
+  "description": "Smart agreements, safer payments. Create escrow payment agreements locked in iTHB (Interlynk Thai Baht) and release funds only when verified conditions are completed.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

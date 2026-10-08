@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="512" height="512" fill="none">
+  <defs>
+    <style>
+      .node { fill: #FF6A00; }
+      .link { stroke: #FF6A00; stroke-width: 22; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+    </style>
+  </defs>
+
+  <!-- Arm 1: Top-Left (starts at 44, 40, goes right to 90, 40, then diagonal to 135, 85) -->
+  <path class="link" d="M 44 40 L 90 40 Q 102 40 110 48 L 138 76" />
+  <circle class="node" cx="44" cy="40" r="16" />
+
+  <!-- Arm 2: Top-Right (starts at 160 44, goes down to 160 90, then diagonal to 115 135) -->
+  <path class="link" d="M 160 44 L 160 90 Q 160 102 152 110 L 124 138" />
+  <circle class="node" cx="160" cy="44" r="16" />
+
+  <!-- Arm 3: Bottom-Right (starts at 156 160, goes left to 110 160, then diagonal to 65 115) -->
+  <path class="link" d="M 156 160 L 110 160 Q 98 160 90 152 L 62 124" />
+  <circle class="node" cx="156" cy="160" r="16" />
+
+  <!-- Arm 4: Bottom-Left (starts at 40 156, goes up to 40 110, then diagonal to 85 65) -->
+  <path class="link" d="M 40 156 L 40 110 Q 40 98 48 90 L 76 62" />
+  <circle class="node" cx="40" cy="156" r="16" />
+</svg>
