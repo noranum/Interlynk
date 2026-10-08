@@ -156,17 +156,18 @@ Requirements
 Clone the Repository
 
 ```bash
-git clone [https://github.com/noranum/Interlynk.git]
+git clone https://github.com/noranum/Interlynk.git
 ```
 
 ```bash
-cd interlynk-escrow-dapp
+cd Interlynk
 ```
 
 Install Dependencies
 
 ```bash
 npm install
+npm run dev
 ```
 
 Configure Contracts
